@@ -1,0 +1,157 @@
+
+#header{
+	height: 100px;
+	background-color: white ;
+	/*padding: 2px;*/
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#logo{
+	width: 20px;
+	height: 10px;
+	float: left;
+
+}
+img{
+	max-width: 100%;
+	max-height:100%;
+	display: block;	
+}
+h1{
+	font-size: 24px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-top:-50px;
+	margin-right: 20px;
+	margin-left: 150px;
+	
+
+}
+
+#menu{
+	height: 60px;
+	background-color: #1E90FF;
+
+
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+#menu li{
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	line-height: 55px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+
+}
+#menu li a{
+	text-decoration: none;
+	color: #FFF;
+
+}
+#menu li:Hover{
+	background-color: #CCC;
+}
+#sidebar{
+	height: 500px;
+	/*background-color:cyan;*/
+	width: 400px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	border: 1px, solid;
+
+}
+#sidebar1 ul{
+
+	width: 150px;
+	height: 60px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	display: block;
+	list-style: none;
+
+
+}
+#sidebar1 li:hover{
+	background-color: gray;
+}
+#sidebar1 ul li{
+	margin-left: 10px;
+	padding-bottom: 20px;
+}
+#sidebar1 li a{
+	text-decoration: none;
+	color: black;}
+#sidebar1{
+	height: 500px;
+	
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+	border: 1px, solid;
+	background-color: lightblue;
+	
+}
+
+
+#mainbody{
+	width: 60%;
+	height: 500px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 500px;
+	/*background-image: url(image/t10.jpg);*/ 
+	border: 1px, solid;
+}
+#mainbody img{
+	width: 100%;
+	height:400px;
+}
+
+
+
+
+#footer{
+
+	
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	line-height: 55px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	background-color: #1E90FF;
+
+
+}
+
+
+.mainbody{
+	width: 100%;
+}
+.mainbody img{
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 500px;
+	height: 500px;
+}
+.mainbody table{
+	
+	margin-left: 500px;
+	margin-top: 30px;
+}
+ 
